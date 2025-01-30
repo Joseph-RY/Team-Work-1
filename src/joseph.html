@@ -8,19 +8,77 @@
 </head>
 <body>
     
-    <div class="max-w-[1440px] mx-auto px-[5%]">
-        <header>
-            <nav class="flex items-center justify-between py-5">
+    <div class="max-w-[1440px] mx-auto">
+        <header class="flex flex-col gap-10 mb-[120px]">
+            <nav class="flex items-center justify-between py-5 px-[5%]">
                 <img src="../images/Joseph-Images/logo.png" alt="">
-                <ul class="flex gap-10">
+                <ul class="hidden lg:flex gap-10">
                     <li>Booking</li>
                     <li>Facilities</li>
                     <li>About Us</li>
                     <li>Location</li>
                     <li>Contact</li>
                 </ul>
-                <button class="px-5 py-[10px] rounded-[35px] bg-[#24AB70] text-white">Login</button>
+                <button class="hidden lg:block px-5 py-[10px] rounded-[35px] bg-[#24AB70] text-white">Login</button>
+                <div class="flex lg:hidden flex-col gap-[6px] p-[15px] bg-[#24AB70] rounded-[15px]">
+                    <hr class="w-5 h-[2px] bg-[#FFFFFF] border-none">
+                    <hr class="w-5 h-[2px] bg-[#FFFFFF] border-none">
+                    <hr class="w-5 h-[2px] bg-[#FFFFFF] border-none">
+                </div>
             </nav>
+
+            <section class="flex flex-col lg:flex-row-reverse items-center  bg-[#F6FCF9] rounded-ss-[45px] rounded-se-[45px]">
+                <div class="lg:max-w-[50%]">
+                    <img class="rounded-ss-[30px] lg:rounded-none" src="../images/Joseph-Images/header.png" alt="">
+                </div>
+                <aside class="lg:max-w-[50%] text-center lg:text-start pt-[88px] lg:pl-[60px] lg:pr-[40px] pb-[40px] px-[5%] lg:px-0 lg:pb-0">
+                    <h1 class="text-[30px] lg:text-[60px] font-semibold">Find your perfect place to stay</h1>
+                    <p class="text-[#555555] text-[20px] mt-[30px] mb-[50px]">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                    <div class="flex justify-center lg:justify-start items-center gap-2">
+                        <div class="w-[56px] h-[56px] rounded-[50%] bg-white flex items-center justify-center">
+                            <img src="../images/Joseph-Images/arrow-right 1.png" alt="">
+                        </div>
+                        <a class="text-[20px] text-[#222] font-semibold" href="#">Watch video</a>
+                    </div>
+                    <div class="relative top-0 left-[50px] hidden lg:flex items-center justify-between w-[1000px] bg-[#FFF] rounded-[50px] pl-[30px]">
+                        <div class="flex items-center gap-2">
+                            <img src="../images/Joseph-Images/pin 1.png" alt="">
+                            <div>
+                                <p class="text-[20px]">Location</p>
+                                <p class="text-[#555] text-[14px]">United States</p>
+                            </div>
+                        </div>
+                        <hr class="w-[1px] h-[60px] bg-[#DDD] border-none">
+                        <div class="flex items-center gap-2">
+                            <img src="../images/Joseph-Images/calendar 1.png" alt="">
+                            <div>
+                                <p class="text-[20px]">Chack in</p>
+                                <p class="text-[#555] text-[14px]">10 Jun 2021</p>
+                            </div>
+                        </div>
+                        <hr class="w-[1px] h-[60px] bg-[#DDD] border-none">
+                        <div class="flex items-center gap-2">
+                            <img src="../images/Joseph-Images/calendar 1.png" alt="">
+                            <div>
+                                <p class="text-[20px]">Chack out</p>
+                                <p class="text-[#555] text-[14px]">15 Jun 2021</p>
+                            </div>
+                        </div>
+                        <hr class="w-[1px] h-[60px] bg-[#DDD] border-none">
+                        <div class="flex items-center gap-2">
+                            <img src="../images/Joseph-Images/person 1.png" alt="">
+                            <div>
+                                <p class="text-[20px]">Rooms for</p>
+                                <p class="text-[#555] text-[14px]">1 room, 2 guests</p>
+                            </div>
+                        </div>
+                        <div class="flex items-center gap-2 justify-center bg-[#24AB70] rounded-[50px] px-[46px] py-[38px] text-[#FFF] text-[18px]">
+                            <img src="../images/Joseph-Images/search-outline 1.png" alt="">
+                            <p>Search...</p>
+                        </div>
+                    </div>
+                </aside>
+            </section>
         </header>
     </div>
 
